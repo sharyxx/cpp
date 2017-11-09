@@ -7,20 +7,21 @@ using namespace std;
 
 
 int main() {
-	int *a = NULL;
-	int b;
-	cin >> b;
-	int temp = 0;
-	a = new  int[b];
+        long *a = NULL;
+        long b;
+        cin >> b;
+        long temp = 0;
+        a = new  long[b];
 
-	for (int i = 0; i<b; i++) {
+        for (int i = 0; i<b; i++) {
 
-		cin >> a[i];
-		temp += a[i];
+                cin >> a[i];
+                temp += a[i];
 
-	}
+        }
 
-	cout << temp;
+        cout << temp;
 
-	delete[] a;
+        delete[] a;
 }
+
