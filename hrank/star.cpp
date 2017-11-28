@@ -27,5 +27,3 @@ int main() {
 	star(x);
 	return 0;
 }
-/*
-*/
