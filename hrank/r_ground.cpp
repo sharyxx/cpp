@@ -10,11 +10,13 @@ vector < int > solve(vector < int > grades){
      std::vector <int> myvector;
     for (std::vector <int>::iterator it =  grades.begin();it!=grades.end();it++ ){
         
-        if (*it < 40 || *it % 5 == 0 ){
+        if (*it < 38 || (*it+(5- *it%5))-*it >= 3 ){
             myvector.push_back( *it );
-            } else{
-    myvector.push_back( ((*it + 5/2)/5)*5);
+            } else if ((*it+(5- *it%5))-*it < 3){
+    myvector.push_back( *it+(5- *it%5));
     }
+    
+    else {cout<<"Error 0";}
     
 }
 return myvector;
