@@ -9,7 +9,6 @@ ${BROWSER}        ff
 ${Login_Link}     css:a.alt-cta
 ${Login_Next}     css:button#next_button.aws-signin-button
 ${Username}       minkhantzaw38@gmail.com
-${Password}       m%c5uuqut3riz@t
 ${Final_Word}     Build a solution
 
 *** Test Cases ***
