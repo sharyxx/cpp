@@ -7,7 +7,7 @@ public:
         for (int i = 0; i< magazine.length();i++){
             ransommap[magazine[i]]++;
         }
-        //subtract again from the map which was stored from magazine with the ransomNote 
+        //decrement again from the map which was stored from magazine with the ransomNote 
         // and if it is less than 0, return false.
         for (int i = 0; i< ransomNote.length();i++){
             ransommap[ransomNote[i]]--;
